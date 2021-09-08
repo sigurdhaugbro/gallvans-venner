@@ -1,0 +1,31 @@
+.grad {
+	background-image: linear-gradient(
+		to bottom right,
+		rgb(250, 171, 184),
+		coral
+	);
+}
+
+aside {
+	border: solid 1px black;
+	width: 100vw;
+	height: 5vw;
+	padding: 10px;
+}
+
+aside div {
+	display: inline-block;
+	background: magenta;
+	width: fit-content;
+}
+
+.mar {
+	width: 100%;
+}
+
+main h2 {
+	color: rgb(251, 168, 182);
+	position: absolute;
+	left: 70vw;
+	top: 52vw;
+}
