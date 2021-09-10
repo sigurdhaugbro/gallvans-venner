@@ -1,13 +1,8 @@
 .grad {
-	background-image: linear-gradient(
-		to bottom right,
-		rgb(250, 171, 184),
-		rgb(253, 157, 253)
-	);
+	background-image: linear-gradient(to right, #ffc2b0, #ffa3a7);
 }
 
 nav {
-	border: solid 1px black;
 	width: 100vw;
 	height: 5vw;
 	padding: 10px;
@@ -17,25 +12,59 @@ nav div {
 	padding: 1vw;
 	position: relative;
 	display: inline-block;
-	background: magenta;
+	font-size: 25px;
 	width: fit-content;
 	height: 4vw;
 }
 
 #søk {
-	position: relative;
-	background: blue;
+	position: absolute;
+	right: 5vw;
 	margin-left: 70vw;
 }
 
-main div {
-	padding: 3vw;
-	background: white;
-	text-align: center;
+img {
+	width: 100vw;
 }
 
-main h2 {
-	/* color: rgb(251, 168, 182); */
-	color: white;
-	position: fixed;
+h3 {
+	text-align: center;
+	font-weight: normal;
+	font-size: 40px;
+	height: 6vw;
+	background: white;
+	color: #ffaeab;
+	padding: 2vw;
+}
+
+.galvan {
+	position: absolute;
+	font-size: 40px;
+	top: 50vw;
+	left: 70vw;
+	color: #ffaeab;
+}
+
+.heart {
+	display: inline-block;
+	position: relative;
+	width: 30vw;
+	height: 40vw;
+	background-color: white;
+	margin-top: 2vw;
+	margin-left: 2vw;
+	padding: 1vw;
+	border-radius: 10px;
+}
+
+section div p {
+	position: relative;
+	color: #ffaeab;
+}
+
+section div div img {
+	margin-top: 5vw;
+	margin-left: 10vw;
+	width: 120px;
+	height: 120px;
 }
