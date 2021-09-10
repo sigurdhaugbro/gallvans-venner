@@ -23,7 +23,7 @@ nav div {
 	margin-left: 70vw;
 }
 
-img {
+.mar {
 	width: 100vw;
 }
 
@@ -67,4 +67,12 @@ section div div img {
 	margin-left: 10vw;
 	width: 120px;
 	height: 120px;
+}
+
+section {
+	margin-top: 2vw;
+}
+
+section section h2 {
+	width: 100vw;
 }
