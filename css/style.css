@@ -73,6 +73,30 @@ section {
 	margin-top: 2vw;
 }
 
-section section h2 {
+section section h3 {
 	width: 100vw;
+	background: white;
+}
+
+.hvorfor {
+	display: inline-block;
+	color: white;
+	font-size: 40px;
+	margin: 10vw;
+}
+
+.contact {
+	display: inline-block;
+	width: 30vw;
+	height: 40vw;
+	margin: 1.5vw;
+	background: white;
+}
+
+.contact img {
+	text-align: center;
+}
+
+.contact div {
+	text-align: center;
 }
