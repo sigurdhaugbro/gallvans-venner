@@ -100,3 +100,12 @@ section section h3 {
 .contact div {
 	text-align: center;
 }
+
+/* politikk: */
+
+.main section {
+	background: white;
+	margin-bottom: 3vw;
+	padding: 2vw;
+	font-size: 30px;
+}
