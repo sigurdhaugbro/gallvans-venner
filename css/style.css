@@ -109,3 +109,18 @@ section section h3 {
 	padding: 2vw;
 	font-size: 30px;
 }
+
+/* brev */
+
+h1 {
+	font-size: 50px;
+}
+
+.brev {
+	background: white;
+	padding: 2vw;
+}
+
+.brev div {
+	font-size: 30px;
+}
