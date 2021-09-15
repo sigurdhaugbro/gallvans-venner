@@ -3,24 +3,19 @@
 }
 
 nav {
-	width: 100vw;
-	height: 5vw;
-	padding: 10px;
+	width: 100%;
+
+	background-image: linear-gradient(to right, #ffc2b0, #ffa3a7);
+	display: flex;
 }
 
-nav div {
-	padding: 1vw;
-	position: relative;
-	display: inline-block;
-	font-size: 25px;
-	width: fit-content;
-	height: 4vw;
+nav a {
+	border: solid 1px black;
+	flex: 1;
 }
 
-#søk {
-	position: absolute;
-	right: 5vw;
-	margin-left: 70vw;
+nav img {
+	width: 5vw;
 }
 
 .mar {
@@ -34,7 +29,7 @@ h3 {
 	height: 6vw;
 	background: white;
 	color: #ffaeab;
-	padding: 2vw;
+	padding: 1vw;
 }
 
 .galvan {
@@ -57,11 +52,6 @@ h3 {
 	border-radius: 10px;
 }
 
-section div p {
-	position: relative;
-	color: #ffaeab;
-}
-
 section div div img {
 	margin-top: 5vw;
 	margin-left: 10vw;
@@ -69,39 +59,10 @@ section div div img {
 	height: 120px;
 }
 
-section {
-	margin-top: 2vw;
-}
-
 section section h3 {
 	width: 100vw;
 	background: white;
 }
-
-.hvorfor {
-	display: inline-block;
-	color: white;
-	font-size: 40px;
-	margin: 10vw;
-}
-
-.contact {
-	display: inline-block;
-	width: 30vw;
-	height: 40vw;
-	margin: 1.5vw;
-	background: white;
-}
-
-.contact img {
-	text-align: center;
-}
-
-.contact div {
-	text-align: center;
-}
-
-/* politikk: */
 
 .main section {
 	background: white;
@@ -110,17 +71,49 @@ section section h3 {
 	font-size: 30px;
 }
 
-/* brev */
-
 h1 {
 	font-size: 50px;
 }
 
-.brev {
-	background: white;
-	padding: 2vw;
+.flex-container {
+	width: 100%;
+
+	margin: 30px auto;
+
+	background-image: linear-gradient(to right, #ffc2b0, #ffa3a7);
+	display: flex;
+	flex-direction: row;
+	flex-flow: row;
+	justify-content: space-evenly;
 }
 
-.brev div {
+.flex-item {
+	width: 25vw;
+
+	padding-top: 3vw;
+	padding-left: 1vw;
+	padding-right: 1vw;
+	border: 4px;
+	border-radius: 10px;
+	background: white;
+	text-align: center;
+}
+
+.flex-item p {
 	font-size: 30px;
+	margin: 10%;
+}
+
+.img {
+	width: 40%;
+	border-radius: 100vw;
+}
+.choose {
+	font-size: 40px;
+
+	position: absolute;
+	left: 52vw;
+	margin-top: 22vw;
+	display: inline-block;
+	color: white;
 }
