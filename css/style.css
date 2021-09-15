@@ -10,6 +10,10 @@ nav {
 	grid-template-columns: 1fr 2fr 2fr 2fr 2fr 4fr;
 }
 
+nav :hover {
+	color: white;
+}
+
 nav a {
 	font-size: 25px;
 	color: black;
