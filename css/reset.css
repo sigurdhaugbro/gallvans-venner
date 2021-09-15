@@ -2,8 +2,13 @@
 	box-sizing: border-box;
 	margin: 0;
 	border-collapse: collapse;
+
+	/* max-width: 980px; */
 }
 
 body {
 	font-family: Helvetica, sans-serif;
+	/* max-width: 1080px;
+	margin: 0 auto !important;
+	float: none !important; */
 }
