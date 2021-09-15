@@ -29,8 +29,16 @@ nav img {
 	width: 5vw;
 }
 
-.mar {
-	width: 100vw;
+.mar img {
+	width: 100%;
+}
+
+.mar h2 {
+	position: absolute;
+	font-size: 40px;
+	top: 50%;
+	left: 70%;
+	color: #ffaeab;
 }
 
 h3 {
@@ -41,26 +49,6 @@ h3 {
 	background: white;
 	color: #ffaeab;
 	padding: 1vw;
-}
-
-.galvan {
-	position: absolute;
-	font-size: 40px;
-	top: 50vw;
-	left: 70vw;
-	color: #ffaeab;
-}
-
-.heart {
-	display: inline-block;
-	position: relative;
-	width: 30vw;
-	height: 40vw;
-	background-color: white;
-	margin-top: 2vw;
-	margin-left: 2vw;
-	padding: 1vw;
-	border-radius: 10px;
 }
 
 section div div img {
@@ -94,7 +82,7 @@ h1 {
 }
 
 .flex-item {
-	width: 25vw;
+	width: 25%;
 
 	padding-top: 3vw;
 	padding-left: 1vw;
@@ -106,7 +94,7 @@ h1 {
 }
 
 .flex-item p {
-	font-size: 30px;
+	font-size: 20px;
 	margin: 10%;
 }
 
@@ -144,4 +132,14 @@ h1 {
 	padding-left: 4vw;
 	padding-top: 2vw;
 	padding-bottom: 2vw;
+}
+
+label {
+	font-size: 30px;
+}
+
+input {
+	height: 4vw;
+	width: 16vw;
+	margin-bottom: 1vw;
 }
